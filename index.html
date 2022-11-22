@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Api</title>
+    <link rel="stylesheet" href="public/index.css">
+</head>
+<body>
+    <div class="b">
+        
+        <div class="formBlock">
+            <form method="POST" action="http://localhost:3000/hui" accept-charset="UTF-8" id="form" target="_blank">
+                <input value='' type="text" id="Name" name="Name"  placeholder="Name"/>
+                <input value='' type="text" id="Age" name="Age" placeholder="Age"/>
+                <input value='' type="text" id="DickLenght" name="Dick lenght" placeholder="Dick lenght"/>
+                <input value='' type="text" id="Salary" name="Salary"  placeholder="Salary" />
+            </form>
+        </div>
+
+        <div class="stats">
+            <div class="user">
+                <p class="item" id="Name_value">Name: </p>
+                <p class="item" id="Age_value">Age:</p>
+                <p class="item" id="DickLenght_value">Dick Lenght:</p>
+                <p class="item" id="Salary_value">Salary:</p>
+            </div>
+            <div class="existsIDs">
+                <p class="exID" id="existsIDs">Exists Id's:</p>
+            </div>
+        </div>
+
+        <!-- <div class="pBlock">
+            <div id="apiFetch" class="apiFetch">apiFetch:</div>
+            <div id="apiPost" class="apiPost">apiPost:</div>
+            <div id="txt" class="apiPost">Users:</div>
+            <form method="POST" action="http://localhost:3000/hui" accept-charset="UTF-8" id="form" target="_blank" onsubmit="target_popup(this)">
+        </div> -->
+
+        <div class="clr">
+            <input value="" type="text" id="deleteById" placeholder="enter id 2 delete"/>
+            <div class="clrBtn">
+                <button onclick="deleteID()" class="button">Clear</button>
+            </div>
+        </div>
+
+        <div class="btn-block">
+            <!--    
+                <button onclick="apiFetch1()" class="button">apiFetch1</button>
+                <button onclick="fetchUsers()" class="button">fetchUsers</button>
+                <button onclick="apiPost1()" class="button">apiPost1</button>
+            -->
+            <!-- <button onclick="apiFetch()" class="button">apiFetch</button> -->
+            <button onclick="apiPost2()" class="button">apiPost</button>
+            <button onclick="apiFetch3()" class="button">apiFetch</button>
+            <button onclick="clearApi()" class="button">Clear Api</button>
+            
+        </div>
+        <div class="txt">
+            <p id="postSuccessfully"></p>
+        </div>
+    </div>
+
+    <!-- <script>
+        let target_popup = function(form) {
+            window.open('',//URL should be blank so that it will take form attributes.
+                        'UniqueWindowName', //window name
+                        'width=400,height=400,resizeable,scrollbars');
+            form.target = 'UniqueWindowName';
+        }
+    </script> -->
+
+    <script src="./js/anotherShit.js"></script>
+    <script src="./js/apiFetch.js"></script>
+    <script src="./js/apiPost.js"></script>
+    <script src="./js/consts.js"></script>
+    <script src="./js/clear.js"></script>
+</body>
+</html>

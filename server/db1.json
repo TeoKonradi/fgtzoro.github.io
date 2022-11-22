@@ -1,0 +1,43 @@
+{
+  "hui": [
+    {
+      "posts": {
+        "id": 1,
+        "title": "json-server",
+        "author": "typicode"
+      }
+    },
+    {
+      "comments": {
+        "id": 1,
+        "body": "some comment",
+        "postId": 1
+      }
+    },
+    {
+      "profile": {
+        "name": "typicode",
+        "HUI": "HUI"
+      }
+    }
+  ],
+
+
+
+  "JK": {
+    "KK": "jkjkjkjkj",
+    "ji": {
+      "hi": [
+        "hj",
+        "gf",
+        90909,
+        {
+          "ja": "hui"
+        }
+      ],
+      "k": {
+        "haha": "pizda"
+      }
+    }
+  }
+}

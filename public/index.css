@@ -1,0 +1,70 @@
+body{
+    background-color: rgb(97, 97, 97);
+    margin: 0;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+
+.b{
+    position: relative;
+}
+
+.btn-block{
+    width: 40vh;
+    height: 20vh;
+    margin: 12vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 60vh;
+}
+
+.button{
+    width: 12vh;
+    height: 6vh;
+    background-color:rgb(50, 50, 50);
+    border-style: none;
+    color:rgb(230, 119, 0);
+}
+
+.formBlock{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10vh;
+}
+
+.button:active{
+    background-color:rgb(165, 165, 165);
+    border: solid 2px #000;
+}
+
+.pBlock{
+    margin-top: 12vh;
+}
+
+.clr{
+    position: relative;
+    top: 12vh;
+}
+
+.clrBtn{
+    position: relative;
+    top: 7vh;
+}
+
+
+.stats{
+    display: flex;
+    align-items:unset;
+    justify-content:space-between;
+}
+
+.existsIDs{
+    width: 50vh;
+    height: 20vh;
+    margin-top: 6vh;
+}
